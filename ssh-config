@@ -1,0 +1,11 @@
+# Umich Gitlab
+Host gitlab
+   HostName gitlab.com
+   User git
+   IdentityFile ~/.ssh/zpiell_rsa
+
+# CAEN
+Host mmd
+   HostName login.engin.umich.edu
+   User zpiell
+   Compression yes
